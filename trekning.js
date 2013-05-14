@@ -29,12 +29,12 @@ var players = _.map(entries, function(contenderTickets, ticketeer) {
 });
 
 var winner = _.shuffle(tickets)[Math.round(Math.random() * tickets.length)];
-var loosers = _.shuffle(_.without(players, winner));
+var losers = _.shuffle(_.without(players, winner));
 
 console.log(color.blue("Følgende gikk på en smell:"));
-_.each(loosers, function(looser) {
+_.each(losers, function(loser) {
     sleep.sleep(2);
-    console.log(color.red(looser));
+    console.log(color.red(loser));
 });
 
 console.log("");
