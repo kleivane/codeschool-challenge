@@ -1,17 +1,11 @@
 var _ = require('underscore'),
     color = require('bash-color'),
-    sleep = require('sleep');
+    sleep = require('sleep'),
+    inputData = require('./data.js');
 
-var data = {
-  'tine.kleivane':  11,
-  'kris-mikael.krister': 12,
-  'eivind.bergstol': 6,
-  'stale.pettersen':  32,
-  'erik.salhus': 16,
-  'kai.henriksen': 30
-};
+var data = inputData.forbruk;
 
-var lastBuyer  = 'kai.henriksen';
+var lastBuyer  = inputData.sisteInnkjoper;
 
 var entries = _.omit(data, lastBuyer);
 
