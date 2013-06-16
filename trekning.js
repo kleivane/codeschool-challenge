@@ -3,17 +3,12 @@ var _ = require('underscore'),
     sleep = require('sleep');
 
 var entries = {
-  '@ErikWendel':  21,
-  '@BjørnEndresen': 12,
-  '@MagnusHaug': 10,
-  '@CathinkaWalberg':  8,
-  '@JohnRingø1':  6,
-  '@ArildNilsen': 5,
-  '@JoelChelliah':  9,
-  '@TrondKlakken':  4,
-  '@FrodeReinertsen':  9,
-  '@AndersSkifte':  4,
-  '@MagnusFjell' : 21
+  'tine.kleivane':  11,
+  'kris-mikael.krister': 12,
+  'eivind.bergstol': 6,
+  'stale.pettersen':  32,
+  'erik.salhus': 16,
+  'kai.henriksen': 30
 };
 
 var tickets = [];
