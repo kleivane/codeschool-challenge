@@ -38,12 +38,12 @@ console.log("");
 
 console.log(color.blue("Følgende slipper å kjøpe inn kaffe for denne gang:"));
 _.each(losers, function(loser) {
-    sleep.sleep(2);
+    sleep.sleep(1);
     console.log(color.red(loser));
 });
 
 console.log("");
 console.log("Så da er den heldige...");
 
-sleep.sleep(5);
+sleep.sleep(4);
 console.log(color.green(winner));
